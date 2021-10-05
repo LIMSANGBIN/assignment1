@@ -1,0 +1,19 @@
+---
+title: "integers"
+author: "Sangbin"
+date: '2021 10 5 '
+output:
+  pdf_document: default
+  html_document: default
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+##print integers
+
+print integers 1 to 10
+```{r}
+for (i in 1:10){print (i)}
+
+```
+
